@@ -59,7 +59,7 @@ With **10+ years** of expertise in backend development and enterprise-scale appl
 *Gumi Vietnam*, Ho Chi Minh City, Vietnam  
 **Duration:** January 2015 - March 2017 (2+ years)
 
-- � **Promoted to Team Leader** (July 2015) managing 3 developers and delivering multiple client projects
+- 🏆 **Promoted to Team Leader** (July 2015) managing 3 developers and delivering multiple client projects
 - 🏥 **Led CliSSS medical system backend development** using Ruby on Rails, MySQL, and Deep Learning technologies for Japanese healthcare client
 - 📊 **Built MnS reporting system backend** - comprehensive business intelligence platform using Ruby on Rails and MySQL
 - 💼 **Developed CampusCareer recruitment platform backend** (http://campuscareer.jp) using PHP and MySQL, serving Japanese job market

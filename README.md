@@ -21,7 +21,7 @@ Welcome to my resume repository! This repository contains my up-to-date curricul
 | File | Description |
 |------|-------------|
 | `khanh-to-resume.md` | Main resume |
-| `khanh-to-resume-eng.pdf` | PDF version of resume |
+| `khanh-to-resume-english.pdf` | PDF version of resume |
 | `README.md` | This file - Repository overview |
 
 ## 🚀 Current Role & Expertise

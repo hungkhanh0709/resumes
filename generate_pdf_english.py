@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 """
-CV PDF Generator - Professional Resume PDF Creation
+English CV PDF Generator - Professional Resume PDF Creation with Avatar
 """
 
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.units import inch
 from reportlab.lib.colors import HexColor
-from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, Image
 from reportlab.lib.enums import TA_LEFT, TA_CENTER
+import os
 
 def create_styles():
     """Create custom styles for the PDF"""
@@ -91,26 +92,42 @@ def create_styles():
     
     return styles
 
-def create_resume_pdf():
-    """Create the complete resume PDF"""
-    print("🚀 Starting PDF generation...")
+def main():
+    """Main function to generate the CV PDF with avatar"""
+    print("🚀 Starting English PDF generation with avatar...")
     
     # Setup
-    filename = "khanh-to-resume-eng.pdf"
+    filename = "khanh-to-resume-english.pdf"
     doc = SimpleDocTemplate(filename, pagesize=A4, rightMargin=0.5*inch, leftMargin=0.5*inch, topMargin=0.5*inch, bottomMargin=0.5*inch)
     story = []
     styles = create_styles()
     
     print("📝 Adding header section...")
     
-    # Header with name and profile picture space
+    # Check if avatar image exists
+    avatar_path = "./img/IMG_3832.JPG"
+    photo_content = None
+    
+    if os.path.exists(avatar_path):
+        try:
+            # Create image with exact square dimensions
+            photo_content = Image(avatar_path, width=2.08*inch, height=2.08*inch)
+            print(f"✅ Avatar image loaded: {avatar_path}")
+        except Exception as e:
+            print(f"⚠️  Could not load image: {e}")
+            photo_content = Paragraph("<br/><br/><b>PHOTO</b><br/><br/><br/>", styles['ContactInfo'])
+    else:
+        print(f"⚠️  Avatar image not found: {avatar_path}")
+        photo_content = Paragraph("<br/><br/><b>PHOTO</b><br/><br/><br/>", styles['ContactInfo'])
+    
+    # Header with name and profile picture
     header_data = [
         [
             [
                 Paragraph("To Hung Khanh", styles['CustomTitle']),
                 Paragraph("Senior Backend Engineer", styles['CustomSubtitle'])
             ],
-            Paragraph("<b>PHOTO</b><br/>", styles['ContactInfo'])
+            photo_content
         ]
     ]
     
@@ -122,7 +139,6 @@ def create_resume_pdf():
         ('VALIGN', (1, 0), (1, 0), 'MIDDLE'),
         ('BOX', (1, 0), (1, 0), 2, HexColor('#2C3E50')),
         ('BACKGROUND', (1, 0), (1, 0), HexColor('#F8F9FA')),
-        ('GRID', (1, 0), (1, 0), 1, HexColor('#BDC3C7')),
     ]))
     
     story.append(header_table)
@@ -315,12 +331,12 @@ def create_resume_pdf():
     doc.build(story)
     
     print(f"✅ PDF generated successfully: {filename}")
-    print(f"🎉 Your CV PDF has been created: {filename}")
+    print(f"🎉 Your English CV PDF with avatar has been created: {filename}")
     print("📧 You can now send this PDF file to HR departments via email!")
 
 if __name__ == "__main__":
     try:
-        create_resume_pdf()
+        main()
     except Exception as e:
         print(f"❌ Error generating PDF: {str(e)}")
         import traceback

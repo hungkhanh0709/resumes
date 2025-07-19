@@ -5,10 +5,10 @@
 - 📧 **Email:** hungkhanh0709@gmail.com  
 - 📱 **Phone:** +84 946 686 872  
 - 🌍 **Location:** Ho Chi Minh City, Vietnam  
-- 💼 **LinkedIn:** [linkedin.com/in/tohungkhanh](https://linkedin.com/in/tohungkhanh)
-- 🔗 **GitHub:** [github.com/hungkhanh0709](https://github.com/hungkhanh0709)  
-- 📚 **Goodreads:** [goodreads.com/user/show/119191343-kh-nh-t](https://www.goodreads.com/user/show/119191343-kh-nh-t)
-- 📸 **Photography:** [flickr.com/photos/khanhth](https://www.flickr.com/photos/khanhth/)
+- 🎂 **Date of Birth:** September 7, 1990
+- 👤 **Gender:** Male
+- 💒 **Marital Status:** Married
+-  **GitHub:** [github.com/hungkhanh0709/resumes](https://github.com/hungkhanh0709/resumes)
 
 ---
 
@@ -21,7 +21,7 @@ With **10+ years** of expertise in backend development and enterprise-scale appl
 ## 🎓 Education
 
 **Programming Diploma (Information Technology)**  
-*Trường Cao đẳng Việt Mỹ (VATC)*, Ho Chi Minh City, Vietnam  
+*Vietnam-America College (VATC)*, Ho Chi Minh City, Vietnam  
 **Duration:** August 2008 - February 2012
 
 **Software Engineering Studies**  
@@ -199,8 +199,7 @@ With **10+ years** of expertise in backend development and enterprise-scale appl
 - **English:** Intermediate (strong reading comprehension, TOEIC 405)
 
 ### **Interests & Activities**
-- 📚 **Reading enthusiast** - Active Goodreads member with diverse reading interests
-- 📸 **Photography** - Creative portfolio on Flickr showcasing artistic perspective
+- 📚 **Reading enthusiast** - Enjoy exploring diverse topics and continuous learning
 - 🏃‍♂️ **Running & fitness** - Regular runner maintaining work-life balance
 - ⚽ **Football fan** - Following international and local football leagues
 - ✈️ **Travel & exploration** - Discovering new cultures and technologies

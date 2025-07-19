@@ -8,16 +8,20 @@ Welcome to my resume repository! This repository contains my up-to-date curricul
 
 ### 🔗 Quick Links
 - 📧 **Email:** hungkhanh0709@gmail.com
-- 💼 **LinkedIn:** [linkedin.com/in/tohungkhanh](https://linkedin.com/in/tohungkhanh)
-- 🔗 **GitHub:** [github.com/hungkhanh0709](https://github.com/hungkhanh0709)
-- 📚 **Goodreads:** [My Reading Profile](https://www.goodreads.com/user/show/119191343-kh-nh-t)
-- 📸 **Photography:** [Flickr Portfolio](https://www.flickr.com/photos/khanhth/)
+-  **GitHub:** [github.com/hungkhanh0709/resumes](https://github.com/hungkhanh0709/resumes)
+
+### 📋 Personal Information
+- 🎂 **Date of Birth:** September 7, 1990
+- 👤 **Gender:** Male
+- 💒 **Marital Status:** Married
+- 🌍 **Location:** Ho Chi Minh City, Vietnam
 
 ## 📁 Repository Contents
 
 | File | Description |
 |------|-------------|
 | `khanh-to-resume.md` | Main resume |
+| `khanh-to-resume-english.pdf` | PDF version of resume |
 | `README.md` | This file - Repository overview |
 
 ## 🚀 Current Role & Expertise
@@ -71,7 +75,7 @@ Future → Aspiring Technical Leader
 
 ## 🎓 Education & Certifications
 
-- **Programming Diploma** - Trường Cao đẳng Việt Mỹ (VATC)
+- **Programming Diploma** - Vietnam-America College (VATC)
 - **Software Engineering Studies** - Ho Chi Minh University of Industry
 - **JLPT N3** (Japanese Language) - Currently studying N2
 - **TOEIC** English Proficiency

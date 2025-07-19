@@ -245,7 +245,7 @@ def main():
     print("📝 Adding technical skills...")
     
     # Technical Skills
-    story.append(Paragraph("🛠️ Technical Skills", styles['SectionHeader']))
+    story.append(Paragraph("📝 Technical Skills", styles['SectionHeader']))
     
     skills_data = [
         ["Programming Languages", "Java, JavaScript/TypeScript, PHP, Python, Golang"],
@@ -267,6 +267,7 @@ def main():
         ('TOPPADDING', (0, 0), (-1, -1), 6),
         ('GRID', (0, 0), (-1, -1), 0.5, HexColor('#BDC3C7')),
     ]))
+    skills_table.hAlign = 'LEFT'  # Align table to left
     
     story.append(skills_table)
     story.append(Spacer(1, 12))

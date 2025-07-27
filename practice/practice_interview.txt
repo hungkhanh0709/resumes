@@ -1,0 +1,41 @@
+Practice Interview Planning with Japanese Teacher
+Based on your resume, here's guidance for your practice interview with a Japanese teacher:
+
+1. When to practice and preparation todos
+Before scheduling the practice interview, complete these todos:
+
+Review technical Japanese vocabulary related to backend development (Java, Spring Boot, etc.)
+Prepare a 2-minute 自己紹介 (self-introduction) in Japanese
+Practice explaining your Yahoo! Kids and donation portal projects in Japanese
+Prepare answers to common interview questions in Japanese (strengths, weaknesses, why Japan)
+Review JLPT N3 grammar patterns commonly used in business settings
+Practice formal keigo (敬語) expressions appropriate for interviews
+Prepare 3-5 questions to ask the interviewer in Japanese
+Study Japanese interview etiquette (proper bowing, business card exchange)
+Suggested timing: Schedule after completing at least 80% of the preparation tasks above.
+
+2. Department and job description
+For FPT Japan, based on your experience, target these positions:
+
+バックエンドエンジニア (Backend Engineer) - Leveraging your Java/Spring Boot expertise
+テクニカルリード (Technical Lead) - Using your team leadership experience
+ブリッジSE (Bridge SE) - Capitalizing on your cross-cultural experience with Japanese clients
+FPT Japan typically values engineers who can communicate between Japanese clients and Vietnamese development teams - your JLPT N3 and experience with Japanese companies make you a strong candidate.
+
+3. Resume and portfolio
+Yes, sending "経歴書_ToHungKhanh_JP_202507.xlsx" is appropriate. This Japanese-format resume is essential for Japanese companies. Additionally:
+
+Create a simple portfolio page highlighting Yahoo! Kids and donation portal projects
+Prepare to discuss your contributions to Japanese products in Japanese language
+Have 2-3 technical problem examples you solved at Yahoo! projects ready to explain
+4. Session duration
+Two hours total is ideal:
+
+First hour: Formal interview practice (自己紹介, technical questions, your questions)
+Second hour: Feedback session and focused practice on weak areas
+Additional recommendations:
+Record the practice session for self-review (with permission)
+Ask your teacher to use actual technical terms Japanese companies use
+Request feedback specifically on your technical vocabulary and keigo usage
+Practice the interview bow (お辞儀) and formal sitting posture
+Would you like me to help you prepare any specific parts of this plan in more detail?
